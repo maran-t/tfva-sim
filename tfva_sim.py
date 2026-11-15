@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-TFVA v3.0 Reference Multiphysics & Architecture Benchmark Suite (tfva_sim.py)
+TFVA Reference Multiphysics & Architecture Benchmark Suite (tfva_sim.py)
 =============================================================================
 Numerical verification of the mathematical formulations in:
-"Topological Field & Variational Architecture (TFVA v3.0): A De-Risked,
-Heterogeneous Spintronic-SAW & Thin-Film Photonic Co-Processing Paradigm"
+"Topological Field & Variational Architecture (TFVA): A Heterogeneous
+Spintronic-SAW & Thin-Film Photonic Co-Processing Paradigm"
 
 Simulates all three physical hardware tracks and the unified TFVA-Node:
   1. Track A (TFVA-Benchtop): 64-port multi-frequency acoustic phase-conjugate
@@ -619,7 +619,7 @@ def run_track_c_rrns_verification() -> dict:
 
 def main() -> None:
     print("=" * 74)
-    print("TFVA v3.0 Reference Multiphysics & Architecture Benchmark Suite")
+    print("TFVA Reference Multiphysics & Architecture Benchmark Suite")
     print("=" * 74)
     res_a = run_track_a_acoustic_synthesis()
     res_b = run_track_b_saw_boltzmann()

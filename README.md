@@ -4,6 +4,10 @@
 
 This package contains the complete publication manuscript, reference multiphysics simulation suite, high-resolution benchmark figures, and outreach/DOI playbook for **TFVA**.
 
+## Preprint
+
+Zenodo Preprint: https://doi.org/10.5281/zenodo.24241909
+
 ---
 
 ## Package Contents

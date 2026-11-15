@@ -1,0 +1,33 @@
+{
+  "Track_A_Benchtop_Acoustic": {
+    "M_transducers": 64,
+    "pslr_db_N1": 2.91,
+    "pslr_db_N32": 9.58,
+    "pslr_db_N64": 9.52,
+    "sidelobe_reduction_pct": 71.3
+  },
+  "Track_B_Spin_SAW_Boltzmann": {
+    "native_barrier_kBT": 22.0,
+    "lubricated_trough_barrier_kBT": 1.76,
+    "barrier_reduction_pct": 92.0,
+    "final_KL_divergence_SAW_OFF": 18.3826,
+    "final_KL_divergence_SAW_ON": 0.00065,
+    "kl_improvement_factor": 28076.6
+  },
+  "Unified_TFVA_Node_Ising_Benchmark": {
+    "N_spins": 64,
+    "ground_state_energy": -251.0,
+    "approx_ratio_SAW_OFF_pct": 61.69,
+    "approx_ratio_digital_SA_pct": 91.83,
+    "approx_ratio_DOPO_only_pct": 84.28,
+    "approx_ratio_TFVA_Node_pct": 96.41
+  },
+  "Track_C_Photonic_RRNS": {
+    "M_data": 30030,
+    "M_total": 9699690,
+    "mean_unprotected_crt_error": 11870.9,
+    "max_unprotected_crt_error": 25740.0,
+    "rrns_single_error_correction_rate_pct": 100.0,
+    "mean_rrns_error": 0.0
+  }
+}
